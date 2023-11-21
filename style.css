@@ -1,0 +1,79 @@
+/*reset básico de CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    /*Ajustando o tamanho dos textos para rem*/
+    font-size: 62.5%;
+    /*scroll mais suave*/
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.app {
+    margin: 6.4rem auto 6.4rem auto;
+    width: 62.6rem;
+    text-align: center;
+}
+
+.app img {
+    margin-bottom: 3.2rem;
+}
+
+.app h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: normal;
+    font-size: 3.2rem;
+    color: #3F3D56;
+}
+
+.app h1 span {
+    color: #EE24FF;
+    font-weight: bold;
+}
+
+.app p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #828282;
+}
+
+
+footer .line {
+    width: 39.1rem;
+    border: 1px solid #ECEFF2;
+    margin: auto;
+}
+
+footer .links {
+    text-align: center;
+    margin: 1.6rem auto 0 auto;
+}
+
+footer .links a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    color: #3F3D56;
+}
+
+footer .links a + a {
+    margin-left: 4.2rem;
+}
+
+
+#wave {
+    bottom: 0;
+    width: 100%;
+    margin-top: 4rem;
+}
